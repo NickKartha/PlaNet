@@ -1,5 +1,9 @@
 # Learning Latent Dynamics for Planning from Pixels
 
+Deep Planning Network (PlaNet), a model-based agent that learns the environment dynamics from pixels and chooses actions through online planning in a compact latent space. To learn the dynamics, we use a transition model with both stochastic and deterministic components and train it using a generalized variational objective that encourages multi-step predictions. PlaNet solves continuous control tasks from pixels that are more difficult than those previously solved by planning with learned models.
+
+The open source code is available here --> https://github.com/google-research/planet <--
+
 This repo contains the source for the article.
 
 ### Article
